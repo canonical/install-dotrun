@@ -1,4 +1,4 @@
-# Install Poetry Action
+# Install Dotrun Action
 
 A Github action for installing and configuring [Dotrun](https://snapcraft.io/dotrun).
 
