@@ -1,0 +1,12 @@
+name: tests
+
+on: push
+
+jobs:
+  test-installation:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: canonical/install-dotrun@main
+    - name: Test dotrun
+      run: dotrun version
